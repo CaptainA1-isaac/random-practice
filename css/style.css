@@ -1,0 +1,261 @@
+/* General page styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    margin: 0;
+    padding: 40px;
+}
+
+
+/* Heading section */
+section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #1a237e;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* Table headings */
+th {
+    background: #1a237e;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+
+/* Table data */
+td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+
+/* Alternate row colors */
+tr:nth-child(even) {
+    background: #f8f9ff;
+}
+
+
+/* Hover effect */
+tr:hover {
+    background: #e3f2fd;
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+
+/* Responsive design for smaller screens */
+@media(max-width: 700px){
+
+    body {
+        padding: 20px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    th, td {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+.container {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: Arial;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background: #1a237e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0d1457;
+}
+.history-card {
+
+    background:white;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+
+}
+
+
+.history-card h2{
+
+    color:#1a237e;
+
+}
+
+
+.history-card button{
+
+    background:#c62828;
+
+}
+body.dark {
+
+    background: #121212;
+    color: white;
+
+}
+
+
+body.dark .container {
+
+    background: #1e1e1e;
+
+}
+
+
+body.dark textarea,
+body.dark input {
+
+    background: #333;
+    color: white;
+    border: 1px solid #555;
+
+}
+
+
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+
+    color: white;
+
+}
+.navbar {
+
+    background: #1a237e;
+
+    padding: 15px;
+
+    text-align: center;
+
+}
+
+
+.navbar a {
+
+    color: white;
+
+    text-decoration: none;
+
+    margin: 0 15px;
+
+    font-size: 18px;
+
+}
+
+
+.navbar a:hover {
+
+    text-decoration: underline;
+
+}
+body.dark {
+
+    background: #121212;
+    color: white;
+
+}
+
+
+body.dark .container {
+
+    background: #1e1e1e;
+
+}
+
+
+body.dark textarea,
+body.dark input {
+
+    background: #333;
+    color: white;
+    border: 1px solid #555;
+
+}
+
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p {
+
+    color: white;
+
+}
+
+
+body.dark .history-card {
+
+    background: #1e1e1e;
+    color: white;
+
+}
+
+
+body.dark .navbar {
+
+    background: #000;
+
+}

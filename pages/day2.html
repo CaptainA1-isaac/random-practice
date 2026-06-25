@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 2 - Learning Dashboard</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <button onclick="toggleDarkMode()">
+🌙 Dark Mode
+</button>
+
+    <a href="../index.html">Home</a>
+
+    <a href="day2.html">Dashboard</a>
+
+    <a href="history.html">History</a>
+
+    <a href="stats.html">Stats</a>
+
+</nav>
+<section>
+    <h1>MY LEARNING DASHBOARD</h1>
+    <p>Welcome back! Let’s track your progress 🚀</p>
+</section>
+
+<div class="container">
+
+    <h2>What did you learn today?</h2>
+    <textarea id="recap" oninput="updatePreview()" placeholder="Write your daily recap here..."></textarea>
+
+    <h2>Topics Covered</h2>
+    <input id="topics" type="text" placeholder="e.g. HTML Tables, CSS Basics">
+
+    <h2>What did you build?</h2>
+    <textarea id="built" placeholder="Describe your project or practice work..."></textarea>
+
+    <h2>Challenges faced</h2>
+    <textarea id="challenge" placeholder="What confused you today?"></textarea>
+
+    <h2>Next goal for tomorrow</h2>
+    <input id="next" type="text" placeholder="e.g. Learn CSS Flexbox">
+
+    <div class="container">
+        <h3>Today’s Preview</h3>
+        <p id="previewText">Nothing saved yet...</p>
+    </div>
+
+    <br><br>
+
+    <button onclick="saveNotes()">Save Today's Progress</button>
+
+    <br><br>
+
+    <a href="history.html">
+        <button>View My Learning History 📚</button>
+    </a>
+<br><br>
+
+<a href="stats.html">
+
+<button>
+View My Progress 📊
+</button>
+
+</a>
+    <br><br>
+
+    <a href="../index.html">← Back to Timetable</a>
+
+</div>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
